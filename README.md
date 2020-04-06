@@ -7,3 +7,6 @@ A polynomial of the 10th degree is chosen on the basis of test score and RMSE in
 
 
 Then, the 10th degree polynomial is fit to all of the data and the results are plotted.
+
+
+The Excel file contains the data downloaded from the who. There are two column for date: DateRep, which contains the original dates from the WHO and "Dates." The "Dates" colun was reformatted to remove the timestamp.  
