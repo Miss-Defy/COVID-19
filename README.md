@@ -6,7 +6,7 @@ This script takes data downloaded from the ECDC and fits a curve to the number o
 This data is available at :https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide
 
 
-The Excel file contains the data downloaded from the ECDC. There are two column for date: DateRep, which contains the original dates from the ECDC and "Dates." The "Dates" colun was added and reformatted to remove the timestamp. The Day_Number column added as well and increases each day by one, starting from the first date provided by the WHO: 12/31/2019.
+The Excel file contains the data downloaded from the ECDC. There are two column for date: "DateRep", which contains the original dates from the ECDC and "Date." The "Date" colun was added and reformatted to remove the timestamp. You need to do this yourself if you download a new ECDC datafile. Look at the equation in this Excel column.
 
 
 A polynomial of the 10th degree is chosen on the basis of test scores and RMSE in the "Choosing a Best Fit" portion of the script using a training and testing dataset about the number of US cases. 
