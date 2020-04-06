@@ -10,4 +10,4 @@ This curve fitting process is based on a post by Tirthajyoti Sarkar at https://t
 
 Then, the 10th degree polynomial is fit to all of the data for a single country and the results are plotted. That country must be specified as the Country_Id. For example, Country_Id="US".
 
-The Excel file contains the data downloaded from the who. There are two column for date: DateRep, which contains the original dates from the WHO and "Dates." The "Dates" colun was reformatted to remove the timestamp.  
+The Excel file contains the data downloaded from the WHO. There are two column for date: DateRep, which contains the original dates from the WHO and "Dates." The "Dates" colun was added and reformatted to remove the timestamp. The Day_Number column added as well and increases each day by one, starting from the first date provided by the WHO: 12/31/2019.
