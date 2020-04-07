@@ -1,5 +1,5 @@
 # COVID-19
-Curve fitting for Covid-19 Cases and Death
+Curve fitting for Covid-19 Cases and Deaths
 
 This script takes data downloaded from the ECDC and fits a curve to the number of cases and the number of deaths in several countries. 
 
