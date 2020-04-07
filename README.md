@@ -15,3 +15,7 @@ Then, the 7th degree polynomial is fit to all of the data for a single country a
 
 
 The Excel file contains the data downloaded from the ECDC. There are two columns for date: "DateRep", which contains the original dates from the ECDC and "Date." The "Date" colun was added and reformatted to remove the timestamp. You need to do this yourself if you download a new ECDC datafile and want the dates to look readable in the plot. Look at the equation in the column of the Covid_Cases_Deaths_from_the_ECDC.xlsx file and copy it.
+
+
+Please make sure the dataframe file name matches the ECDC Excel file. For example, this provided Excel file is called "COVID-19-geographic-disbtribution-worldwide-2020-04-06.xlsx". The dataframe is specified by "df_covid=pd.read_excel(r'COVID-19-geographic-disbtribution-worldwide-2020-04-06.xlsx',index_col=0)"
+
